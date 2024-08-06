@@ -8,6 +8,7 @@
     <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-database.js"></script>
     <script>
+        // Your web app's Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyDPCpJCtQxjJMTJqfw1jVzUyvUw3X4EVno",
             authDomain: "webthirds.firebaseapp.com",
@@ -19,7 +20,8 @@
             measurementId: "G-4TPYE9WT4R"
         };
 
-        const app = firebase.initializeApp(firebaseConfig);
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
         const db = firebase.database();
 
         function updateText() {
